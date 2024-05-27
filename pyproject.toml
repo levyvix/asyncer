@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "asyncer_levy"
+version = "0.1.0"
+description = ""
+authors = ["levy"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+asyncer = "^0.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
